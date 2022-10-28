@@ -1,0 +1,22 @@
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>KK Store </p>
+  <p>KK STORE PROVIDING YOU FUTURE DEVICES </p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column" *ngFor="let team of team1">
+    <div class="card">
+      <img src="{{team.picture}}" class="card-img-top img-size">
+
+      <p class="card-text">{{team.des}}</p>
+      <div class="container">
+        <h1 class="card-text">{{team.name}}</h1>
+        <p class="card-text">{{team.des}}</p>
+        <p>{{team.email}}</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>

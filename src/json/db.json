@@ -1,0 +1,76 @@
+[
+  {
+    "id": 2,
+    "name":"Basic Router",
+    "picture": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4360/4360023_sa.jpg",
+    "price": "100.09",
+    "sale_price": "89",
+    "qnt": "1",
+    "disc":"TP-Link Archer AX21. Best budget router. $80 at Amazon.Linksys Hydra Pro 6 (MR5500) Best mid-range router. $250 at Best Buy.TP-Link Deco W7200. Best mesh router. $229 at Walmart.Netgear Orbi (dual-band, AC1200) Best mesh value. $200 at Netgear. Netgear Orbi (tri-band, AX6000) Best mesh performance.",
+    "slug": "basic-router",
+    "gallery":["https://cdn.shopify.com/s/files/1/0217/5985/2608/products/000001_20638_512x.jpg?v=1592918464","https://i.ebayimg.com/images/g/zYwAAOSw82lc9X~y/s-l600.jpg"]
+  },
+  {
+    "id": 3,
+    "name":"Standard Router",
+    "picture": "https://cdn.shopify.com/s/files/1/0217/5985/2608/products/000001_20638_512x.jpg?v=1592918464",
+    "price": "200.09$",
+    "disc":"TP-Link Archer AX21. Best budget router. $80 at Amazon.Linksys Hydra Pro 6 (MR5500) Best mid-range router. $250 at Best Buy.TP-Link Deco W7200. Best mesh router. $229 at Walmart.Netgear Orbi (dual-band, AC1200) Best mesh value. $200 at Netgear. Netgear Orbi (tri-band, AX6000) Best mesh performance.",
+    "qnt": "1",
+    "slug": "standard-router"
+  },
+  {
+    "id": 4,
+    "name":"Premium Router",
+    "picture": "https://i.ebayimg.com/images/g/zYwAAOSw82lc9X~y/s-l600.jpg",
+    "price": "300.09$",
+    "qnt": "1",
+    "disc":"TP-Link Archer AX21. Best budget router. $80 at Amazon.Linksys Hydra Pro 6 (MR5500) Best mid-range router. $250 at Best Buy.TP-Link Deco W7200. Best mesh router. $229 at Walmart.Netgear Orbi (dual-band, AC1200) Best mesh value. $200 at Netgear. Netgear Orbi (tri-band, AX6000) Best mesh performance.",
+    "slug": "premium-router"
+  },
+  {
+    "id": 5,
+    "name":"Premium Router",
+    "picture": "https://www.symbios.pk/image/cache/data/t/t28_1569935982-500x500.jpg",
+    "price": "100.09$",
+    "qnt": "1",
+    "disc":"TP-Link Archer AX21. Best budget router. $80 at Amazon.Linksys Hydra Pro 6 (MR5500) Best mid-range router. $250 at Best Buy.TP-Link Deco W7200. Best mesh router. $229 at Walmart.Netgear Orbi (dual-band, AC1200) Best mesh value. $200 at Netgear. Netgear Orbi (tri-band, AX6000) Best mesh performance.",
+    "slug": "premium-router-other"
+  },
+  {
+    "id": 6,
+     "name":"AULA WIND F805 MOUSE",
+    "picture": "https://i0.wp.com/thegamingstore.pk/wp-content/uploads/2021/06/Aula-F805-RGB-Programmable-Buttons-Ergonomic-Price-in-Pakistan.jpg",
+    "price": "10.09$",
+    "qnt": "1",
+    "disc":"this is very good product",
+    "slug": "aula-wind"
+  },
+  {
+    "id": 7,
+    "name":"A4 TECH W90 MAX MOUSE",
+    "picture": "https://storage.pricemeter.pk/images/products/13108/ef10b54e16-41PDAAtkyGL.jpg",
+    "price": "20.09$",
+    "qnt": "1",
+    "disc":"TP-Link Archer AX21. Best budget router. $80 at Amazon.Linksys Hydra Pro 6 (MR5500) Best mid-range router. $250 at Best Buy.TP-Link Deco W7200. Best mesh router. $229 at Walmart.Netgear Orbi (dual-band, AC1200) Best mesh value. $200 at Netgear. Netgear Orbi (tri-band, AX6000) Best mesh performance.",
+    "slug": "a4-tech-w90"
+  },
+  {
+    "id": 8,
+    "name":"Logitech G502 HERO ",
+    "picture": "https://www.amirtraders.com/image/cache/catalog/keyboard,mouse/502-6-500x500.jpg",
+    "price": "30.09$",
+    "qnt": "1",
+    "disc":"this is very good product",
+    "slug": "logitech-g502"
+  },
+  {
+    "id": 9,
+    "name":"Gaming Mouse",
+    "picture": "https://s3.us-east-2.amazonaws.com/ccp-prd-s3-uploads/2022/9/6/8ffac7ce9a1a5a8f9b0c8315c1e24d574c3a20f3.jpeg",
+    "price": "10.09$",
+    "qnt": "1",
+    "disc":"this is very good product",
+    "slug": "gaming-mouse"
+  }
+]

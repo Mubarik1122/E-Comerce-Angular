@@ -1,0 +1,62 @@
+<!-- <ng-container *ngIf="product.length != 0"> -->
+  <div class="container">
+    <div class="card-table">
+      <div class="card-product">
+
+        <table class="table table-responsive">
+          <thead>
+
+            <tr>
+              <th>No</th>
+              <th>Product name</th>
+              <th>Product img</th>
+              <th>Product disc</th>
+              <th>Product price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr *ngFor="let item of getCartDetails;let i=index">
+
+              <td>{{i+1}}</td>
+              <td>{{item.title}}</td>
+              <td><img style="width: 120px;" src="{{item.image}}" alt=""></td>
+              <td style="width: 25%;">{{item.description}}</td>
+              <th style="width: 12%;">{{item.price}}</th>
+              <td style="width: 12%;">{{item.quantity}}</td>
+              <td style="width: 12%;">{{item.price*item.quantity | number}}</td>
+              <td>
+                <button (click)="removeItem(item.id)" class="btn btn-danger"><i class="fas fa-trash"></i></button>
+              </td>
+
+           </tr>
+            <tr>
+              <td colspan="4"> </td>
+              <td><button class="btn btn-danger" (click)="emptycart()">Empty Cart</button></td>
+              <td><button class="btn btn-primary" routerLink="">Shop More</button></td>
+              <td><strong>Total Amount : ${{total}}</strong></td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+    </div>
+    </div>
+
+<!-- </ng-container>
+<ng-container *ngIf="product.length == 0">
+  <div class="container">
+    <div class="card">
+      <h1 class="cart-title">My Cart</h1>
+      <div class="center">
+        <h3>Your Cart is Empty!</h3>
+        <h5>Add Items Now</h5>
+        <button class="btn btn-primary" routerLink="">Shop Now</button>
+      </div>
+    </div>
+
+  </div>
+</ng-container> -->

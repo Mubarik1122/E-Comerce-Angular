@@ -1,0 +1,42 @@
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://a.nooncdn.com/cms/pages/20211019/aca7bc75ab4421dc39e1a7e196a8a726/N38450410A-1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.shopify.com/s/files/1/0601/3963/4911/files/19_Archer-A50_A-Plus_Amazon_Header_1464x.png?v=1654543897" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/07b578ef-937b-4498-85dc-ad367989eb49.__CR0,0,1464,600_PT0_SX1464_V1___.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="container">
+<div class="row">
+  <h1 class="center-text">New Products</h1>
+  <ng-container *ngFor="let item of productData" >
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+
+        <a>
+                   <img src="{{item.image}}" class="img-size" alt="Products">
+        </a>
+        <p class="card-text"><strong>Price : {{item.price}} &dollar;</strong></p>
+        <p class="card-text">{{item.title}}</p>
+        <div><button type="button" routerLink="home" class="cart-btn btn btn-primary" routerLink="product/{{item.id}}">Shop Now</button></div>
+        </div>
+
+    </div>
+  </div>
+</ng-container>
+</div>
+</div>
